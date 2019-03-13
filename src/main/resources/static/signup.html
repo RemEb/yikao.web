@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>注册用户-码云Gitee.com</title>
     <style>
         .container {
             text-align: center;
             width: 583px;
-            height: 686px;
+            height: 100%;
+            padding-bottom: 30px;
             margin: 0 auto;
             border: 1px solid #c8cccf ;
         }
@@ -98,6 +99,65 @@
             width: 135px; margin-left: -6px;
         }
 
+        .field #rules{
+            width: 20px;
+            height: 20px;
+        }
+
+        #rule span{
+            font-size: 14px;
+        }
+
+        #rule a{
+            font-size: 12px;
+            margin: 0 10px;
+            color: #005980;
+        }
+
+        #register input{
+            width: 330px;
+            background-color: #fe7300;
+            color: #FFF;
+            font-size: 18px;
+            font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif
+        }
+
+        #oschina img{
+            height: 40px;
+            width: 40px;
+            margin-top: 30px;
+        }
+
+        #oschina span{
+            font-size:16px;
+            margin-bottom: 20px;
+        }
+
+        .line{
+            height: 1px;
+            width: 200px;
+            background-color: #938e8c;
+            clear: both;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        #login{
+            margin: 20px;
+            color: #9b9b9b;
+        }
+
+        #login span{
+            font-size: 14px;
+            margin: 0 10px 0 10px;
+        }
+        #login_type img{
+            height: 35px;
+            width: 35px;
+            margin-left: 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -110,7 +170,7 @@
 
         <div class="field">
             <label for="email">邮箱</label>
-            <input type="text" id="email">
+            <input type="text" id="email" placeholder="请输入工作邮箱">
         </div>
 
         <div class="field">
@@ -119,25 +179,59 @@
             <img class="img" src="images/code.gif" alt="">
         </div>
 
-        <div class="field">
+        <div class="field" style="margin-right: 0">
             <label for="verify">邮箱验证</label>
-            <input type="text" id="verify">
+            <input type="text" id="verify" placeholder="请输入邮箱验证码">
             <input type="button" value="获取验证码" id="verify_code">
+            <a href="#" style="margin-left: 30px;margin-right: 35px;font-size: 12px;color: #005980;">收不到邮件？</a>
         </div>
+        
         <div class="field">
             <label for="name">姓名</label>
             <input type="text" id="name">
         </div>
 
-        <div class="field">
-            <label for="address">个性域名</label>
+        <div class="field" style="margin-right: 0">
+            <label for="address1">个性域名</label>
             <input type="text" value="https://gitee.com/" readonly="readonly" id="address1">
             <input type="text" id="address2">
+            <img src="images/question.png" alt="" style="width: 20px;height: 20px;margin: 10px 60px;">
         </div>
 
         <div class="field">
             <label for="password">密码</label>
-            <input type="password" id="password">
+            <input type="password" id="password" placeholder="密码不少于6位">
+        </div>
+        
+        <div class="field" id="rule">
+            <input type="checkbox" id="rules">
+            <span>已阅读并同意<a href="#">使用条款</a>以及<a href="#">非活跃账户处理规范</a></span>
+        </div>
+
+        <div class="field" id="register">
+            <input type="button" value="注 册">
+        </div>
+        
+        <div id="oschina">
+            <img src="images/OSChina.png" alt="">
+            <span>使用OSChina账号登陆</span>
+        </div>
+
+        <div id="login">
+            <div class="line"></div>
+            <span>其他方式登陆</span>
+            <div class="line"></div>
+        </div>
+
+        <div id="login_type">
+            <img src="images/ali.png" alt="">
+            <img src="images/github.png" alt="">
+            <img src="images/weibo.png" alt="">
+            <img src="images/qq.png" alt="">
+            <img src="images/windows.png" alt="">
+            <img src="images/csdn.png" alt="">
+            <img src="images/wechat.png" alt="">
+            <img src="images/dd.png" alt="">
         </div>
     </form>
 </div>
