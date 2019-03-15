@@ -1,0 +1,33 @@
+#login input {
+    width: 330px;
+    background-color: #fe7300;
+    color: #FFF;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif
+}
+
+#remember input {
+    width: 15px;
+    height: 15px;
+}
+
+#remember a {
+    color: #9b9b9b;
+    text-decoration: none;
+    margin-left: 210px;
+}
+
+#remember {
+    font-size: 14px;
+}
+
+#re_send {
+    margin: 20px;
+    color: #9b9b9b;
+}
+
+#re_send span {
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+}
+

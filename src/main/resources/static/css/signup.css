@@ -4,7 +4,7 @@
     height: 100%;
     padding-bottom: 30px;
     margin: 0 auto;
-    border: 1px solid #c8cccf ;
+    border: 1px solid #c8cccf;
 }
 
 .field {
@@ -13,33 +13,33 @@
     margin-right: 140px;
 }
 
-.header{
+.header {
     font-size: 20px;
     height: 30px;
     margin: 20px;
 }
 
-.header img{
+.header img {
     display: block;
     float: left;
 }
 
-.header span{
+.header span {
     float: left;
 }
 
-.header .login_tip{
+.header .login_tip {
     font-size: 14px;
     float: right;
     margin-right: 20px;
 }
 
 .header .login_tip a {
-    color: rgb(255,185,128);
-    text-decoration:none;
+    color: rgb(255, 185, 128);
+    text-decoration: none;
 }
 
-.field label{
+.field label {
     color: #666666;
     font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif;
@@ -52,11 +52,11 @@
     width: 300px;
     display: inline-block;
     font-size: 14px;
-    background-color: rgb(243,246,248);
+    background-color: rgb(243, 246, 248);
     outline: 0;
-    padding:0 1em;
-    text-decoration:none;
-    border:1px solid #c8cccf;
+    padding: 0 1em;
+    text-decoration: none;
+    border: 1px solid #c8cccf;
 }
 
 .field img {
@@ -74,61 +74,60 @@
     width: 110px;
     margin-left: -6px;
     height: 40px;
-    color: rgb(255,185,128);
+    color: rgb(255, 185, 128);
     background-color: #FFFFFF;
-    border: 1px solid rgb(255,185,128);
+    border: 1px solid rgb(255, 185, 128);
 }
 
 .field #verify {
     width: 190px;
 }
 
-
 .field #address1 {
     width: 135px;
 
 }
 
-.field #address2{
-    width: 135px; margin-left: -6px;
+.field #address2 {
+    width: 135px;
+    margin-left: -6px;
 }
 
-#rule span{
+#rule span {
     font-size: 14px;
 }
 
-#rule a{
+#rule a {
     font-size: 12px;
     margin: 0 10px;
     color: #005980;
 }
 
-#register input{
+#register input {
     width: 330px;
     background-color: #fe7300;
     color: #FFF;
     font-size: 18px;
-    font-family:
-            -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Liberation Sans", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, SimSun, "WenQuanYi Zen Hei Sharp", sans-serif
 }
 
-#rules{
+#rules {
     height: 15px;
     width: 15px;
 }
 
-#oschina img{
+#oschina img {
     height: 40px;
     width: 40px;
     margin-top: 30px;
 }
 
-#oschina span{
-    font-size:16px;
+#oschina span {
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
-.line{
+.line {
     height: 1px;
     width: 200px;
     background-color: #938e8c;
@@ -137,16 +136,17 @@
     display: inline-block;
 }
 
-#login{
+#other_login {
     margin: 20px;
     color: #9b9b9b;
 }
 
-#login span{
+#other_login span {
     font-size: 14px;
     margin: 0 10px 0 10px;
 }
-#login_type img{
+
+#login_type img {
     height: 35px;
     width: 35px;
     margin-left: 20px;
