@@ -8,18 +8,18 @@
 </head>
 <body>
 <div class="container">
-    <form action="">
+    <form method="post" action="http://localhost:8080/login">
         <div class="header">
             <img src="images/register.png" alt=""><span>登陆</span>
             <span class="login_tip"><a href="#">注册</a></span>
         </div>
 
         <div class="field">
-            <input type="text"  placeholder="邮箱" name="login_email">
+            <input type="text"  placeholder="邮箱" name="email">
         </div>
 
         <div class="field">
-            <input type="text" placeholder="请输入用户密码" name="login_password">
+            <input type="password" placeholder="请输入用户密码" name="pwd">
         </div>
 
         <div class="field" id="remember">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="field" id="login">
-            <input type="button" value="登 陆">
+            <input type="submit" value="登 陆">
         </div>
 
         <div id="oschina">
